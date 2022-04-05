@@ -1,5 +1,2 @@
 # Vite + Vue3 模板
-Vite + Vue3 
-ESLint + Prettier
-VueRouter + Pinia
-Sass + Vant3/element-plus
+Vite Starter With Vue3, ESLint and Prettier, Vue Router with Pinia, node-sass and Vant3/element-plus.
