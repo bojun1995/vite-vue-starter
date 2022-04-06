@@ -1,6 +1,6 @@
 <template>
-	<div class="the-layout">the layout layoutlayoutlayout</div>
-	<div>the layout layoutlayoutlayout</div>
+  <div class="the-layout">the layout layoutlayoutlayout</div>
+  <div>the layout layoutlayoutlayout</div>
 </template>
 
 <script setup>
