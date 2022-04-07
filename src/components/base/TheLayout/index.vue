@@ -10,7 +10,5 @@ import { reactive } from 'vue'
 
 <style lang="scss" rel="stylesheet/scss" type="text/scss" scoped>
 .the-layout {
-  font-family: $fontFamily_global;
-  @include textOverflow(100px);
 }
 </style>
