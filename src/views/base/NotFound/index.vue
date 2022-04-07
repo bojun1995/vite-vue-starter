@@ -1,6 +1,7 @@
 <template>
-  <div class="the-layout">
-    <router-view></router-view>
+  <div>
+    <p class="custom-text">404</p>
+    <p>404</p>
   </div>
 </template>
 
@@ -9,8 +10,8 @@ import { reactive } from 'vue'
 </script>
 
 <style lang="scss" rel="stylesheet/scss" type="text/scss" scoped>
-.the-layout {
+.custom-text {
   font-family: $fontFamily_global;
-  @include textOverflow(100px);
+  color: $fontColor_note;
 }
 </style>
