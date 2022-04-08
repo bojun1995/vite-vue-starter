@@ -1,6 +1,8 @@
 <template>
   <div>HomePage</div>
   <router-link to="/DynamicRoute01">DynamicRoute01</router-link>
+  <br />
+  <router-link to="/TestPinia">TestPinia</router-link>
 </template>
 
 <script setup>

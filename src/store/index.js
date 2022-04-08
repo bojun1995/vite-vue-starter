@@ -6,7 +6,7 @@ export const useIndexStore = defineStore({
     token: '123123123',
   }),
   getters: {
-    token: state => state.token,
+    getToken: state => state.token,
   },
   actions: {
     chgToken(newToken) {
