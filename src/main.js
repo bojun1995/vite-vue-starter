@@ -9,4 +9,9 @@ import './style/base/globalStyle.scss'
 import router from './router/index.js'
 app.use(router)
 
+// pinia
+import { createPinia } from 'pinia'
+const pinia = createPinia()
+app.use(pinia)
+
 app.mount('#app')
