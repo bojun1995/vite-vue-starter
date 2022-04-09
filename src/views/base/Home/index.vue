@@ -3,6 +3,8 @@
   <router-link to="/DynamicRoute01">DynamicRoute01</router-link>
   <br />
   <router-link to="/TestPinia">TestPinia</router-link>
+  <br />
+  <van-button type="primary">主要按钮</van-button>
 </template>
 
 <script setup>
