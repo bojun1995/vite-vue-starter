@@ -3,8 +3,8 @@ import App from './App.vue'
 const app = createApp(App)
 
 // vant
-import { installVant } from '@/install/vant.js'
-installVant(app)
+import vantInstaller from '@/install/vant.js'
+app.use(vantInstaller)
 
 // scss
 import '@/style/base/globalStyle.scss'
