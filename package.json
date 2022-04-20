@@ -7,7 +7,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue src",
-    "lint fix": "eslint --fix --ext .js,.vue src"
+    "lint-fix": "eslint --fix --ext .js,.vue src",
+    "prepare": "husky install"
   },
   "dependencies": {
     "pinia": "^2.0.13",
@@ -21,6 +22,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.6.0",
+    "husky": "^7.0.4",
     "prettier": "^2.6.2",
     "sass": "^1.49.11",
     "vite": "^2.9.0",
