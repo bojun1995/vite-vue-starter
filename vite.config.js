@@ -11,8 +11,10 @@ export default defineConfig({
       resolves: [VantResolve()],
     }),
   ],
-  open: true,
-  https: true,
+  server: {
+    open: true,
+    https: true,
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
