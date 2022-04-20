@@ -1,5 +1,5 @@
 <template>
-  <div class="the-layout">
+  <div class="layout">
     <router-view></router-view>
   </div>
 </template>
@@ -8,7 +8,4 @@
 import { reactive } from 'vue'
 </script>
 
-<style lang="scss" rel="stylesheet/scss" type="text/scss" scoped>
-.the-layout {
-}
-</style>
+<style lang="scss" rel="stylesheet/scss" type="text/scss" scoped></style>
